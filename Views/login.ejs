@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="./Assets/css/style.css" type="text/css" media="All">
+    <link rel="stylesheet" href="./Assets/css/bootstrap.min.css" type="text/css" media="All">
+</head>
+
+<body>
+    <main class="">
+        <div class="container" style="margin-top: 10em;">
+            <div class="row justify-content-center">
+                <div class="col-md-4 holder">
+                    <div class="card" style="border: 1px dashed #ccc">
+                        <div class="card-header">
+                            <%= message %>
+                        </div>
+
+                        <div class="card-body">
+                            <form class="form-horizontal" autocomplete="off">
+                                <div class="form-group row form-g">
+                                    <div class="col-md-12 mInput">
+                                        <input id="email" type="email" placeholder="enter email" class="input_field" name="email" autofocus>
+                                    </div>
+                                </div>
+                                <div class="form-group row form-g">
+                                    <div class="col-md-12">
+                                        <input id="password" type="password" placeholder="enter password" class="input_field" name="password">
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-0">
+                                    <div class="col-md-5 offset-md-0">
+                                        <button type="button" class="mLogin" id="btnLogin" onclick="start();">
+                                            Login
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
